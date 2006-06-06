@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 
-<connection name="oracle://localhost:1521/ecalh4db/test05">
+<connection name="oracle://pccmsecdb:1521/ecalh4db/test05">
   <parameter name="user" value="test05" />
   <parameter name="password" value="oratest05" />
 </connection>
