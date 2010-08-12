@@ -1,11 +1,11 @@
-// $Id: MonitorElementsDb.cc,v 1.20 2008/11/10 22:22:23 dellaric Exp $
+// $Id: MonitorElementsDb.cc,v 1.21.6.1 2010/08/12 18:34:30 dellaric Exp $
 
 /*!
   \file MonitorElementsDb.cc
   \brief Generate a Monitor Element from DB data
   \author B. Gobbo
-  \version $Revision: 1.20 $
-  \date $Date: 2008/11/10 22:22:23 $
+  \version $Revision: 1.21.6.1 $
+  \date $Date: 2010/08/12 18:34:30 $
 */
 
 #include "FWCore/ServiceRegistry/interface/Service.h"
@@ -33,7 +33,7 @@
 #include "TH2.h"
 #include "TProfile.h"
 
-#include <DQM/EcalBarrelMonitorDbModule/interface/MonitorElementsDb.h>
+#include "DQM/EcalBarrelMonitorDbModule/interface/MonitorElementsDb.h"
 
 MonitorElementsDb::MonitorElementsDb( const edm::ParameterSet& ps, std::string& xmlFile ){
 
